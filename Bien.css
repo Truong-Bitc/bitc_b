@@ -1,0 +1,47 @@
+:root{
+    --text-color: pink;
+}
+
+h1{
+    color: var(--text-color);
+}
+p::selection{
+    background-color: pink;
+    color: black;
+}
+
+
+.hinh {
+ width: 120px;
+ margin-left: auto;
+ margin-right: auto;
+ display: block;
+}
+
+
+.fb{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+   
+}
+li a{
+    text-decoration: none;
+
+}
+li{
+    margin-right: 20px;
+    background-color: black;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.g{
+    background-color: black;
+    margin-right: 35px;
+}
+a{
+    color: aliceblue;
+}
